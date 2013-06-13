@@ -1,0 +1,26 @@
+{
+  "name": "hg-grabber",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Kev",
+  "description": "A Node.js script to clone and pull Mercurial repositories.",
+  "contributors": [
+    {
+      "name": "Trev Dev",
+      "email": "thetrevdev@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kppullin/hg_grabber.git"
+  },
+  "dependencies": {
+    "async": "0.2.6",
+    "cheerio": "0.9.1",
+    "commander": "1.1.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
